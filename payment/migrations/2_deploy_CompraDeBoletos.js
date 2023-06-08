@@ -1,5 +1,5 @@
-const CompraDeBoletos = artifacts.require("CompraDeBoletos");
+const TransferenciaEthereum = artifacts.require("TransferenciaEthereum");
 
 module.exports = function (deployer) {
-    deployer.deploy(CompraDeBoletos);
+    deployer.deploy(TransferenciaEthereum);
 };

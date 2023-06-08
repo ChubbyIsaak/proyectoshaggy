@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 
-contract CompraDeBoletos {
+contract TransferenciaEthereum {
     address payable public owner;
     mapping(address => uint256) public purchases;
 
     event Purchase(address indexed buyer, uint256 amount);
 
     constructor() {
-        owner = payable(0x9c9159245F9d332ea5cbCe6774bE631c36349Fff);
+        owner = payable(0x540BC919f17d92303b15c076f4699119a79c811f);
     }
 
     modifier onlyOwner() {
